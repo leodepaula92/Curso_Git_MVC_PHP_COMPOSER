@@ -1,0 +1,28 @@
+{
+    "name": "leonardo/cursomvc",
+    "description": "Curso de MVC com Composer no PHP",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Leonardo\\Cursomvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core/"     
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
